@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Google (Fake)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table id="adv_logo">
+            <tr id="logo_small">
+                <td class="blue">G</td>
+                <td class="red">o</td>
+                <td class="yellow">o</td>
+                <td class="blue">g</td>
+                <td class="green">l</td>
+                <td class="red">e</td>
+            </tr>
+    </table>
+    <h2>Advanced Search</h2>
+    <hr>
+    <h3>Find pages with...</h3>
+    <form action="https://www.google.com/search">
+        <table id="adv">
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="included">all these words:</label>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="as_q" id="included">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="exact">this exact word or phrase:</label>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="as_epq" id="exact">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="any">any of these words:</label>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="as_oq" id="any">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="excluded">none of these words:</label>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="as_eq" id="excluded">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="text-align: right;">
+                        <input type="submit" id="adv_btn" style="width:80px">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <a href="index.html">Google Search</a>
+    <a href="image.html">Image Search</a>
+</body>
+</html>
